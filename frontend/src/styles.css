@@ -166,6 +166,53 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* General styling for the form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between fields */
+  width: 100%;
+  max-width: 400px; /* Set a max width for the form */
+  margin: 0 auto; /* Center the form on the page */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the input fields */
+form input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+/* Button Styling */
+form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 600px) {
+  form {
+    width: 90%; /* Make form take up more space on smaller screens */
+  }
+}
 
 
 
